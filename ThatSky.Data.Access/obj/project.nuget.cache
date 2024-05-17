@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uQJeODZwHfOGzZt9MSz1jzmvjivHsj18NA9HmJjYslxZAtQVEWyAbwcDj6gwmValj48fkFe2nhI3SlciwthfhQ==",
+  "dgSpecHash": "2vB/0+fo7pIdXKq95n6JNDpaFODypBCn2y2RnIYDGBin2PswIf4yU5LoHGRNEcEMUaAMyzyy4ckMIIkWtox5oQ==",
   "success": true,
-  "projectFilePath": "D:\\Ky6\\C#5\\DA\\ThatSky.Data.Access\\ThatSky.Data.Access.csproj",
+  "projectFilePath": "D:\\Ky6\\C#5\\DA\\ThatSkyShop\\ThatSky.Data.Access\\ThatSky.Data.Access.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

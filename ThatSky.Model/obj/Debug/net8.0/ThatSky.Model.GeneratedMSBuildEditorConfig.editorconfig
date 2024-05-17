@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ThatSky.Model
-build_property.ProjectDir = D:\Ky6\C#5\DA\ThatSky.Model\
+build_property.ProjectDir = D:\Ky6\C#5\DA\ThatSkyShop\ThatSky.Model\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

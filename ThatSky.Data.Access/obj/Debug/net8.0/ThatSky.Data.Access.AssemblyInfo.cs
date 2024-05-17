@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThatSky.Data.Access")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f40745dc8be76b4f9d1ac0d811dc006c1fe89f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThatSky.Data.Access")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThatSky.Data.Access")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
