@@ -20,15 +20,13 @@ namespace ThatSky.Model
         [RegularExpression(@"^[\p{L}a-zA-Z0-9\s]*$", ErrorMessage = "Tên sản phẩm không chứa kí tự đặc biệt")]
 
         public string TenSP { get; set; }
-
-        [Range(0.01, 5000000, ErrorMessage = "Giá phải lớn hơn 0 và không vượt quá 5 triệu")]
-        [RegularExpression(@"^[0-9]*$", ErrorMessage = "Giá chỉ chấp nhận kí tự số")]
         [Required(ErrorMessage = "Giá không được trống")]
+        [Range(1000, 50000000, ErrorMessage = "Giá phải lớn hơn 1000 và không vượt quá 50 triệu")]
+        [RegularExpression(@"^[0-9]*$", ErrorMessage = "Giá chỉ chấp nhận kí tự số")]
         public double Gia { get; set; }
-
-        [Range(1, 100, ErrorMessage = "Số lượng phải lớn hơn 0 và không vượt quá 100")]
-        [RegularExpression(@"^[0-9]*$", ErrorMessage = "Số lượng chỉ chấp nhận kí tự số")]
         [Required(ErrorMessage = "Số lượng không được trống")]
+        [Range(1, 999, ErrorMessage = "Số lượng phải lớn hơn 0 và không vượt quá 999")]
+        [RegularExpression(@"^[0-9]*$", ErrorMessage = "Số lượng chỉ chấp nhận kí tự số")]
         public int SoLuong { get; set; }
         public DateTime NgayTao { get; set; } = DateTime.Now;
         public bool TrangThai { get; set; } = true;
