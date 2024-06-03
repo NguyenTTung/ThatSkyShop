@@ -12,7 +12,7 @@ namespace ThatSky.Model
         [Key]
         public int MaDanhMuc { get; set; }
         [MaxLength(40, ErrorMessage = "Tên danh mục không quá 40 kí tự")]
-        [MinLength(5, ErrorMessage = "Tên danh mục không dưới 5 kí tự")]
+        [MinLength(2, ErrorMessage = "Tên danh mục không dưới 2 kí tự")]
         [Required(ErrorMessage = "Tên danh mục Không được trống")]
         public string TenDanhMuc { get; set; }
     }
