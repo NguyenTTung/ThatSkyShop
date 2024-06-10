@@ -15,5 +15,6 @@ namespace ThatSky.Model
         public int MaNguoiDung { get; set; }
         [ForeignKey("MaNguoiDung")]
         public NGUOI_DUNG? NGUOI_DUNG { get; set; }
+        public virtual ICollection<CHI_TIET_GIO_HANG>? CHI_TIET_GIO_HANG { get; set; }
     }
 }

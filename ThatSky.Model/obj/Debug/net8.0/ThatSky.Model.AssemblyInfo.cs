@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThatSky.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5342f5dfd6bd1a89642307361a06fda9d1a668a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cdcf2231739c7fadcbe58527f8e47d14227754a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThatSky.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThatSky.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

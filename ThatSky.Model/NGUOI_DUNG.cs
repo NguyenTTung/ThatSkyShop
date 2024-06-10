@@ -12,10 +12,10 @@ namespace ThatSky.Model
         [Key]
         public int MaND { get; set; }
 
-        [Required(ErrorMessage = "Không được trống")]
-        [MinLength(5, ErrorMessage = "Tên người dùng không dưới 5 kí tự ")]
-        [MaxLength(50, ErrorMessage = "Tên người dùng không lớn hơn 50 kí tự ")]
-        [RegularExpression(@"^[\p{L}a-zA-Z\s]*$", ErrorMessage = "Chỉ cho phép nhập ký tự từ chữ.")]
+        [Required(ErrorMessage = "Họ và tên Không được trống")]
+        [MinLength(5, ErrorMessage = "Họ và tên không dưới 5 kí tự ")]
+        [MaxLength(50, ErrorMessage = "Họ và tên không lớn hơn 50 kí tự ")]
+        [RegularExpression(@"^[\p{L}a-zA-Z\s]*$", ErrorMessage = "Họ và tên chỉ được nhập chữ")]
         public string TenND { get; set; }
 
         [StringLength(10, ErrorMessage = "Số Điện thoại phải có 10 kí tự")]
@@ -29,7 +29,7 @@ namespace ThatSky.Model
 
 
 
-        [Required(ErrorMessage = "Không được trống")]
+        [Required(ErrorMessage = "Tên tài khoản Không được trống")]
         [MaxLength(25)]
         [RegularExpression(@"^[a-zA-Z0-9]+$", ErrorMessage = "Tên tài khoản chỉ được chứa ký tự và số.")]
         [Display(Name = "Tên tài khoản")]
@@ -38,7 +38,7 @@ namespace ThatSky.Model
 
 
 
-        [Required(ErrorMessage = "Không được trống")]
+        [Required(ErrorMessage = "Mật khẩu Không được trống")]
         [MaxLength(25, ErrorMessage = "Mật khẩu không lớn hơn 25 kí tự ")]
         [MinLength(5, ErrorMessage = "Mật khẩu không dưới 5 kí tự")]
         public string MatKhau { get; set; }
